@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url(Red_Apple.jpg);
+            justify-items: center;
+        }
+        header{
+            width: 100%;
+            justify-items: center;
+            background: black;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 50px;
+        }
+        .ma{
+            justify-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 2px;
+            border: solid 1px;
+            margin-top: 100px;
+            width: 500px;
+            height: 500px;
+            border-radius: 10px;
+            background: rgba(41, 37, 37, 0.938);
+            
+        }
+        #resul{
+            width: 100%;
+            height: 50px;
+            margin: 10px;
+            border-radius: 10px;
+            border: 1px solid rgb(243, 9, 9);
+        }
+        #peso{
+            width: 50%;
+            height: 0;
+            padding: 20px;
+            border-radius: 30px;
+            
+        }
+        #altura{
+            width: 50%;
+            height: 0;
+            padding: 20px;
+            border-radius: 30px;
+            
+        }
+        button{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        button:hover{
+            background: blue;
+            color: white;
+        }
+        footer{
+            width: 100%;
+            text-align: center;
+            margin-top: 30PX;
+            background: rgba(0, 0, 0, 0.555);
+            color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+       <h1>Faça seu IMC!</h1>
+    </header>
+        <div class="ma" id="ma">
+                <input type="text"id="resul" placeholder="Resultado">
+                <input type="text" id="peso" placeholder="peso">
+                <input type="text" id="altura" placeholder="Altura">
+                <button>Start</button>
+        </div>
+    
+    <footer>
+        WELLINGTON JORGE OLIVEIORA &reg;
+    </footer>
+
+    
+</body>
+
+</html>
